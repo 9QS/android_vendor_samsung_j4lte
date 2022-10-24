@@ -83,18 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4lte/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
     vendor/samsung/j4lte/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/j4lte/proprietary/vendor/etc/bluetooth/bt_did.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_did.conf \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/ACG/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/ACG/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/BST/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/BST/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/CCT/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/CCT/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/LRA/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/LRA/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/SPR/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/SPR/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/TFN/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/TFN/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/USC/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/USC/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/j4lte/proprietary/vendor/etc/fstab.samsungexynos7570:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.samsungexynos7570 \
     vendor/samsung/j4lte/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/j4lte/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
@@ -144,9 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4lte/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/j4lte/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
     vendor/samsung/j4lte/proprietary/vendor/etc/init/wsm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wsm-service.rc \
-    vendor/samsung/j4lte/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
     vendor/samsung/j4lte/proprietary/vendor/etc/nxp/AzControlParams_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/AzControlParams_SPEAKER.txt \
     vendor/samsung/j4lte/proprietary/vendor/etc/nxp/LVAZFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVAZFS_Configuration.txt \
     vendor/samsung/j4lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
@@ -301,8 +286,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
     vendor/samsung/j4lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/j4lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/j4lte/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
-    vendor/samsung/j4lte/proprietary/vendor/etc/playback_record_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/playback_record_audio_policy_configuration.xml \
     vendor/samsung/j4lte/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/j4lte/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
     vendor/samsung/j4lte/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
@@ -326,7 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4lte/proprietary/vendor/etc/saiv/ld/regress_matrix_short_35pt.dat:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/ld/regress_matrix_short_35pt.dat \
     vendor/samsung/j4lte/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
     vendor/samsung/j4lte/proprietary/vendor/etc/str/str_preference_data.dat:$(TARGET_COPY_OUT_VENDOR)/etc/str/str_preference_data.dat \
-    vendor/samsung/j4lte/proprietary/vendor/etc/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
     vendor/samsung/j4lte/proprietary/vendor/etc/wlan_common_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_common_rc \
     vendor/samsung/j4lte/proprietary/vendor/etc/wlan_vendor_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_vendor_rc \
     vendor/samsung/j4lte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
@@ -546,6 +528,30 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4lte/proprietary/vendor/tee/startup.tzar:$(TARGET_COPY_OUT_VENDOR)/tee/startup.tzar \
     vendor/samsung/j4lte/proprietary/vendor/tima_measurement_info:$(TARGET_COPY_OUT_VENDOR)/tima_measurement_info
 
+MANIFEST_FILES += \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/ACG/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/ACG/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/BST/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/BST/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/CCT/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/CCT/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/LRA/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/LRA/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/SPR/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/SPR/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/TFN/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/TFN/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/USC/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/USC/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/playback_record_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/playback_record_audio_policy_configuration.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
+    vendor/samsung/j4lte/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
+    
 PRODUCT_PACKAGES += \
     ImsSettings \
     SamsungMax \
